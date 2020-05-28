@@ -18,5 +18,9 @@ Route::get('/', function () {
 });
 
 Route::get('/test',function(){
-    return "text";
+    return "mmmm";
+});
+
+Route::get('/mind', function () {
+    return "my name";
 });
